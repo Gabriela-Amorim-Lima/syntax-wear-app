@@ -10,7 +10,7 @@ import MensCruiserMidExplore from '@/assets/images/cruiser-mid-explore-rustic-gr
 import MensCruiser from '@/assets/images/cruiser_blizzard_blizzard.webp'
 
 
-export const Products = [
+export const products = [
      {
        id: 1,
        name: 'Mens tree dasher 2',

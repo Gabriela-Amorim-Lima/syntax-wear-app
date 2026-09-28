@@ -11,7 +11,7 @@ export const MenuItems = () => {
     return (
         <div className='flex flex-col sm:flex-row gap-8 my-11 mb-0.5'>
             {menus.map(({ title, items }) => (
-                <nav>
+                <nav key={title}>
                     <ul className='flex flex-col gap-4'>
                         <li>
                             <p className='font-normal text-surface-alt text-xl'>{title}</p>
